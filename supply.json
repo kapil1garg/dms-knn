@@ -1,0 +1,63 @@
+{
+  "name": "k-nn",
+  "description": "Implementation of k-Nearest Neighbors algorithm for classification.",
+  "version": "1.0.0",
+  "scope": "kapow",
+  "script": "index.js",
+  "repository": "https://github.com/dataminingsupply/k-nn",
+  "license": {
+    "type": "MIT",
+    "year": 2016,
+    "copyright": "Kapil Garg"
+  },
+  "public": true,
+  "tags": [
+    "machine learning",
+    "ml",
+    "ai",
+    "nearest neighbors",
+    "classification",
+    "lazy learning"
+  ],
+  "thumbnail": "knn.png",
+  "inputs": [
+    {
+      "name": "target",
+      "type": "array",
+      "description": "Array of numerical and categorical features for new data point to classify."
+    },
+    {
+      "name": "train",
+      "type": "array",
+      "description": "Array of two elements, first being a feature array and second a class, to add to training data."
+    }
+  ],
+  "outputs": [],
+  "parameters": [
+    {
+      "name": "batch-train",
+      "type": "array",
+      "description": "Array of two elements, first being a feature array and second a class, to add to training data.",
+      "default": []
+    },
+    {
+      "name": "types",
+      "type": "array",
+      "description": "Array of types for attributes. If numerial, []. Otherwise, array of categories for categorical variable.",
+      "default": []
+    },
+    {
+      "name": "classifications",
+      "type": "array",
+      "description": "Array of strings corresponding to class labels",
+      "default": []
+    }
+  ],
+  "tests": [],
+  "supplies": {
+    "performance-metrics": "1.0.3",
+    "buffer": "1.2.0"
+  },
+  "breadcrumbs": {},
+  "path": "./dms_supplies"
+}

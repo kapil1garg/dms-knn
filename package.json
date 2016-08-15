@@ -1,0 +1,8 @@
+{
+  "devDependencies": {
+    "@dms/supply": "0.0.1"
+  },
+  "dependencies": {
+    "jsonfile": "^2.3.1"
+  }
+}
